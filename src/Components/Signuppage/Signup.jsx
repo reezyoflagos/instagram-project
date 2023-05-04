@@ -2,6 +2,7 @@ import React from 'react'
 import './signup.css'
 import Loginpage from '../Loginpage/Loginpage';
 import { AiFillFacebook } from 'react-icons/fa';
+import ReactDOM from "react-dom/client";
 
 const Signup = () => {
   return (
@@ -43,7 +44,7 @@ const Signup = () => {
                                                                 </button>
                       </div>
                             <div className='sign'>
-                                      <h5>Have an account?<span><a href='{./components/Loginpage/loginpage}'>Log in</a></span> </h5>
+                                      <h5>Have an account?<span>Log in</span> </h5>
                         </div>
       <div className='img9'>
         <p className='ptag'>

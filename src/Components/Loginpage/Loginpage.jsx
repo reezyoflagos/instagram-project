@@ -1,6 +1,11 @@
 import React from 'react'
 import './Style.css'
-const Loginpage = () => {
+const Loginpage = ({onAuth}) => {
+        const signUp = (e) =>{
+                e.preventDefault()
+                console.log("Click")
+                onAuth()
+        }
   return (
     <div className='nin'>
                 <div className='login1'>
@@ -33,7 +38,7 @@ const Loginpage = () => {
                                 </div>
                                         <div className='nil'>
                                             <div className='sed'>
-                                                    <p>Don't have an account?<span>Sign up</span></p>
+                                                    <p>Don't have an account?<span><a href='' onClick={signUp}>Sign up</a></span></p>
                                             </div>
                                              <div className='sewn'>
                                                     <p>Get the app</p>
