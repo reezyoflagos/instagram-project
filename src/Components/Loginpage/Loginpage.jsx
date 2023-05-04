@@ -31,7 +31,7 @@ const Loginpage = () => {
                                             </div>
                                      </form>
                                 </div>
-        
+                                        <div className='nil'>
                                             <div className='sed'>
                                                     <p>Don't have an account?<span>Sign up</span></p>
                                             </div>
@@ -41,6 +41,7 @@ const Loginpage = () => {
                                                                 <img src='./images/play.png' className='img5'/>
                                                                 <img src='./images/app.png' className='img5'/>
                                                     </div>
+                                            </div>
                                             </div>
                         </div>
       
