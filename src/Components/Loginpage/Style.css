@@ -26,9 +26,9 @@
   height: 900px;
 }
 .login1 .sec .one {
-  margin-top: 240px;
   border: 1px solid lightgray;
   padding: 60px;
+  margin-top: 190px;
 }
 .login1 .sec .img2 {
   width: 200px;
@@ -99,6 +99,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 .login1 .sec .sed span {
   color: blue;
@@ -109,4 +110,7 @@
   text-align: center;
   margin: 20px;
   font-weight: 700;
+}
+.login1 .sec .nil {
+  margin-bottom: -500px;
 }/*# sourceMappingURL=Style.css.map */
